@@ -15,6 +15,9 @@
     border-bottom: 3px solid black;
 }
 
+.row {
+    height: 100%;
+}
 .content-box {
     height: 500px;
     border: 2px solid black;
@@ -25,7 +28,7 @@
 .align-text {
     text-align: center;
     padding-top: 30px;
-    height: 50%; 
+    height: 250px; 
 }
 
 .title{
@@ -35,6 +38,7 @@
 
 .content-paragraph {
     font-size: 20px;
+    
 }
 
 .button-previous, .button-next {
@@ -53,3 +57,10 @@
     border-radius: 50%;
 }
 
+.news .content-image {
+    width: 100%;
+}
+
+.news .content-image img {
+    width: 150px;
+}
