@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.content-carousel {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,10 +22,19 @@
     border-radius: 10px;
 }
 
-.title, .content-paragraph {
+.align-text {
     text-align: center;
     padding-top: 30px;
-    height: 50%;
+    height: 50%; 
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content-paragraph {
+    font-size: 20px;
 }
 
 .button-previous, .button-next {
@@ -36,6 +45,13 @@
     font-size: 60px;
     color: red;
     cursor: pointer;
+    transition: 0.3s;
 }
+
+.circle:hover {
+    background-color: yellow;
+    border-radius: 50%;
+}
+
 
 
